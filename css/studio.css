@@ -242,18 +242,19 @@ img {
 
 .features {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 47px;
 }
 .features-item {
     display: flex;
+    align-items: center;
     margin-left: -30px;
     margin-top: -30px;
 }
 
 .title-f {
-    flex-basis: calc ((100% - 90px) /4);
-    margin-left: 30px;
-    margin-top: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .title-features {
@@ -280,7 +281,7 @@ img {
 .what-we-do {
     display: flex;
     padding-bottom: 94px;
-    padding-top: 94px;
+    padding-top: 47px;
     background-color: var(--white-text-back-color);
 }
 
@@ -410,3 +411,16 @@ img {
 .tel-address:focus {
     color: var(--accent-color) ;
 }
+
+/* === portfolio filters btn ===*/
+
+.portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter-btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;

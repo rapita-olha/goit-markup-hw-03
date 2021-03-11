@@ -22,18 +22,6 @@
 
     <!--Hero-->
 
-.portfolio-section {
-    padding: 94px 0;
-}
-
-.filter-btn-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 94px;
-}
-
 .filter-btn-item:hover,
 .filter-btn-item:focus {
     cursor: pointer;
@@ -55,7 +43,7 @@
 }
 
 .portfolio-list.list {
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 
 .portfolio-item {
